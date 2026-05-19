@@ -240,7 +240,7 @@
   /* =============================================
      Notes font size
      ============================================= */
-  var notesFontSize = 13;
+  var notesFontSize = 20;
 
   function applyNotesFontSize(size) {
     notesFontSize = Math.max(9, Math.min(28, size));
