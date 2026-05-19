@@ -9,7 +9,7 @@
 
   /* ── 01: タイトル ── */
   function slide01() {
-    return '<section class="slide slide-cover" data-section="cover" data-title="タイトル" data-notes="本日はよろず支援拠点ご利用いただきありがとうございます。はじめてのご利用ということで、新規申込時に確認はされていると思いますが、まず最初に、よろず支援拠点のご案内と、ご利用ルールについて、5分ほどでご案内させてください。">' +
+    return '<section class="slide slide-cover" data-section="cover" data-title="タイトル" data-notes="本日はよろず支援拠点をご利用いただきありがとうございます。&#10;はじめてのご利用ということで、新規申込時に確認はされていると思いますが、&#10;まず最初に、よろず支援拠点のご案内と、&#10;ご利用ルールについて、5分ほどでご案内させてください。">' +
       '<div class="slide-cover-bar">' +
         '<div class="slide-cover-tag">よろず支援拠点 岡山</div>' +
         '<h1 class="slide-cover-title">はじめてご利用の方へ</h1>' +
@@ -23,7 +23,7 @@
 
   /* ── 02: 核心メッセージ ── */
   function slide02() {
-    return '<section class="slide slide-impact" data-section="cover" data-title="まず最初に" data-notes="まず、よろず支援拠点を一言でいうと、国が設置した無料の経営相談所です。難しく考えなくて大丈夫です。困ったことがあれば、気軽に相談に来てください。">' +
+    return '<section class="slide slide-impact" data-section="cover" data-title="まず最初に" data-notes="まず、よろず支援拠点を一言でいうと、国が設置した無料の経営相談所です。&#10;困ったことがあれば、気軽に相談に来てください。">' +
       '<div class="slide-content slide-content-center">' +
         '<div class="s-impact-tag">まず最初に</div>' +
         '<p class="s-impact-main">無料で、何度でも。<br><span style="font-size:0.7em;color:rgba(255,255,255,.65);">遠慮なく使ってください。</span></p>' +
@@ -33,7 +33,7 @@
 
   /* ── 03: 本日の流れ ── */
   function slide03() {
-    return '<section class="slide" data-section="cover" data-title="本日の流れ" data-notes="本日は、まず簡単なご説明をしてから、ご相談内容についてうかがってまります。ご不明な点はいつでも聞いてください。">' +
+    return '<section class="slide" data-section="cover" data-title="本日の流れ" data-notes="簡単なご説明をしてから、ご相談内容についてうかがってまります。&#10;ご不明な点はいつでも聞いてください。">' +
       H('本日の流れ') +
       '<div class="slide-content slide-content-center">' +
         '<div class="s-flow">' +
@@ -71,7 +71,7 @@
 
   /* ── 05: Q1 よろずとは（内容少→大きく） ── */
   function slide05() {
-    return '<section class="slide slide-impact" data-section="qa" data-title="Q1. よろず支援拠点とは" data-notes="まず、よろず支援拠点は、経済産業省の中小企業庁が全国に設置している、中小企業や小規模事業者の方向けの無料の経営相談所です。経営に関する幅広いお悩みに対して、専門のコーディネーターが対応いたします。">' +
+    return '<section class="slide slide-impact" data-section="qa" data-title="Q1. よろず支援拠点とは" data-notes="まず、よろず支援拠点は、経済産業省の中小企業庁が全国に設置している、中小企業や小規模事業者の方向けの無料の経営相談所です。&#10;経営に関する幅広いお悩みに対して、専門のコーディネーターが対応いたします。">' +
       '<div class="slide-content">' +
         '<div class="s-impact-tag">Q1 ― よろず支援拠点とは？</div>' +
         '<p class="s-impact-main" style="font-size:3.8cqw;line-height:1.55;">中小企業庁が全国に設置した<br>無料の経営相談所です。<br><span style="font-size:0.72em;color:rgba(255,255,255,.6);">専門コーディネーターが幅広い経営相談に対応します。</span></p>' +
@@ -81,7 +81,7 @@
 
   /* ── 06: Q2 料金・時間・回数（数字強調） ── */
   function slide06() {
-    return '<section class="slide slide-metric" data-section="qa" data-title="Q2. 料金・時間・回数" data-notes="料金は無料です。1回1時間までで、回数制限はありません。ただし同時に複数の予約はできません。もし1時間で終わらない場合は、終わってから、次の予約をしてください。">' +
+    return '<section class="slide slide-metric" data-section="qa" data-title="Q2. 料金・時間・回数" data-notes="料金は無料です。1回1時間までで、回数制限はありません。&#10;ただし同時に複数の予約はできません。&#10;もし1時間で終わらない場合は、終わってから、次の予約をしてください。">' +
       '<div class="slide-content slide-content-center">' +
         '<p class="s-metric-lead">Q2 ― 料金・時間・回数</p>' +
         '<div class="s-metric-value">無料</div>' +
@@ -93,7 +93,7 @@
 
   /* ── 07: Q3 相談方法（内容少→比較で大きく） ── */
   function slide07() {
-    return '<section class="slide" data-section="qa" data-title="Q3. 相談方法" data-notes="相談の方法は2種類です。WEBか、ご来訪いただいての対面となります。指定場所への訪問には、対応していません。">' +
+    return '<section class="slide" data-section="qa" data-title="Q3. 相談方法" data-notes="相談の方法は2種類です。&#10;WEBか、ご来訪いただいての対面となります。&#10;指定場所への訪問には、対応していません。">' +
       H('Q3 ― 相談方法') +
       '<div class="slide-content">' +
         '<div class="s-compare" style="margin-top:0.5cqw;">' +
@@ -120,7 +120,7 @@
 
   /* ── 08: Q4&Q5 場所・担当者 ── */
   function slide08() {
-    return '<section class="slide" data-section="qa" data-title="Q4&Q5. 場所・担当者" data-notes="場所について補足です。オンラインでのご相談は会社やご自宅など、ご都合のよい場所からご参加ください。ご来訪の場合は、岡山サテライトオフィスには専用駐車場がありません。近隣のコインパーキングをご利用ください。また、コーディネーターの出勤日は決まっています。相談者様のご都合に合わせた、日時指定はできません。">' +
+    return '<section class="slide" data-section="qa" data-title="Q4&Q5. 場所・担当者" data-notes="場所について補足です。&#10;オンラインでのご相談は会社やご自宅など、ご都合のよい場所からご参加ください。&#10;ご来訪の場合は、岡山サテライトオフィスには専用駐車場がありません。&#10;近隣のコインパーキングをご利用ください。&#10;また、コーディネーターの出勤日は決まっています。&#10;相談者様のご都合に合わせた、日時指定はできません。">' +
       H('Q4&5 ― 場所・担当者の出勤') +
       '<div class="slide-content">' +
         '<ul class="s-num-list">' +
@@ -145,7 +145,7 @@
 
   /* ── 09: Q6 連絡方法（重要！） ── */
   function slide09() {
-    return '<section class="slide slide-impact" data-section="qa" data-title="Q6. 連絡方法（重要）" data-notes="コーディネイターへのご連絡は、事務局を通して、となります。直接連絡はできません。このため、名刺に記載の連絡先は、事務局あてとなります。また、コーディネーターは非常勤なので、お電話やメールをお送りいただいた場合は、次の出勤日にて対応となります。">' +
+    return '<section class="slide slide-impact" data-section="qa" data-title="Q6. 連絡方法（重要）" data-notes="コーディネイターへのご連絡は、事務局を通して、となります。&#10;直接連絡はできません。&#10;このため、名刺に記載の連絡先は、事務局あてとなります。&#10;また、コーディネーターは非常勤なので、お電話やメールをお送りいただいた場合は、&#10;次の出勤日にて対応となります。">' +
       '<div class="slide-content">' +
         '<div class="s-impact-tag">Q6 ― 連絡方法（重要）</div>' +
         '<p class="s-impact-main" style="font-size:3.5cqw;line-height:1.6;">コーディネーターへの<br>直接連絡はできません。<br><span style="font-size:0.75em;color:rgba(255,255,255,.55);">ご用件はすべて事務局を通してご連絡ください。</span></p>' +
@@ -156,7 +156,7 @@
 
   /* ── 10: Q7&Q8 Wi-Fi + どんな相談でも ── */
   function slide10() {
-    return '<section class="slide" data-section="qa" data-title="Q7&Q8. Wi-Fi・相談内容" data-notes="こちらは、ご来訪いただいた際の事項となりますが、会場には、Wi-Fiのご用意があります。ご希望の際はお声がけください。あと、相談内容は何でも大丈夫です。創業・ネット販売・資金繰り・DX、何でも気軽にご相談ください。相談内容がまとまっていない場合でも大丈夫です。現状のお悩みや、今後の目標についてお聞かせいただければ、それに合わせてサポートをいたします。　担当者が専門でない分野の場合でも安心してください。他の専門コーディネイターと連携し、ご支援いたします。">' +
+    return '<section class="slide" data-section="qa" data-title="Q7&Q8. Wi-Fi・相談内容" data-notes="こちらは、ご来訪いただいた際の事項となりますが、&#10;会場には、Wi-Fiのご用意があります。ご希望の際はお声がけください。&#10;あと、相談内容は何でも大丈夫です。&#10;創業・ネット販売・資金繰り・DX、何でも気軽にご相談ください。&#10;相談内容がまとまっていない場合でも大丈夫です。&#10;現状のお悩みや、今後の目標についてお聞かせいただければ、それに合わせてサポートをいたします。&#10;担当者が専門でない分野の場合でも安心してください。他の専門コーディネイターと連携し、ご支援いたします。">' +
       H('Q7&8 ― Wi-Fi ／ 相談内容') +
       '<div class="slide-content">' +
         '<ul class="s-num-list">' +
@@ -181,7 +181,7 @@
 
   /* ── 11: Q9 キャンセル ── */
   function slide11() {
-    return '<section class="slide" data-section="qa" data-title="Q9. キャンセルについて" data-notes="あと重要なんですが、やむえず、ご予約の変更、キャンセルをされる場合は、できるだけ2日前までに事務局へご連絡ください。無断キャンセルが続く場合は、ご利用をお断りすることがあります。">' +
+    return '<section class="slide" data-section="qa" data-title="Q9. キャンセルについて" data-notes="あと重要なんですが、やむえず、ご予約の変更、キャンセルをされる場合は、&#10;できるだけ2日前までに事務局へご連絡ください。&#10;無断キャンセルが続く場合は、ご利用をお断りすることがあります。">' +
       H('Q9 ― 予約変更・キャンセル') +
       '<div class="slide-content slide-content-center">' +
         '<div class="s-point-list" style="width:100%;">' +
@@ -218,7 +218,7 @@
 
   /* ── 13: 規約1 相談対象 ── */
   function slide13() {
-    return '<section class="slide" data-section="rules" data-title="規約1. 相談対象" data-notes="まず、相談対象についてです。中小企業・小規模事業者の他、NPO・社団法人・社会福祉法人、創業予定の方も対象です。売上拡大や経営改善など、幅広い経営相談に無料で対応しています。ただし、行政手続きや補助金申請、融資申請など、実務の代行はできません。作り方を一緒に考えることはできますが、代わりに作成することは、できません。">' +
+    return '<section class="slide" data-section="rules" data-title="規約1. 相談対象" data-notes="まず、相談対象についてです。&#10;中小企業・小規模事業者の他、NPO・社団法人・社会福祉法人、創業予定の方も対象です。&#10;売上拡大や経営改善など、幅広い経営相談に無料で対応しています。&#10;ただし、行政手続きや補助金申請、融資申請など、実務の代行はできません。&#10;作り方を一緒に考えることはできますが、代わりに作成することは、できません。">' +
       H('規約 1 ― 相談対象・できないこと') +
       '<div class="slide-content">' +
         '<ul class="s-list">' +
@@ -236,7 +236,7 @@
 
   /* ── 14: 規約2 情報の取り扱い ── */
   function slide14() {
-    return '<section class="slide" data-section="rules" data-title="規約2. 情報の取り扱い" data-notes="次に、情報の取り扱いです。よろずは経済産業省・中小企業基盤整備機構、そして岡山県産業振興財団が連携して運営している国の事業です。相談内容は関係機関と共有される場合があります。また、サービス向上のためにアンケートのご協力をお願いすることがあるのですが、その際にご登録の企業情報などを利用させていただく場合があります。">' +
+    return '<section class="slide" data-section="rules" data-title="規約2. 情報の取り扱い" data-notes="次に、情報の取り扱いです。&#10;よろずは経済産業省・中小企業基盤整備機構、そして岡山県産業振興財団が連携して運営している国の事業です。&#10;相談内容は関係機関と共有される場合があります。また、サービス向上のためにアンケートのご協力をお願いすることがあるのですが、&#10;その際にご登録の企業情報などを利用させていただく場合があります。">' +
       H('規約 2 ― 情報の取り扱い') +
       '<div class="slide-content">' +
         '<ul class="s-list">' +
@@ -253,7 +253,7 @@
 
   /* ── 15: 規約3&4 責任範囲・お断り ── */
   function slide15() {
-    return '<section class="slide" data-section="rules" data-title="規約3&4. 責任範囲・お断りする場合" data-notes="アドバイスに関する責任範囲についてです。アドバイスの完全性は保証できません。実行結果や行動にともなう万が一のトラブルや損害についても、よろず支援拠点、およびコーディネイターは責任を負いかねます。最終判断は必ずご自身でお願いいたします。また、威圧的な言動や暴力的行為、業務を妨げる行為、勧誘および営業行為などがあった場合には、その場で相談を中止し、以後のご利用をお断りすることがあります。また反社会的勢力に関わる方はご利用いただけません。ご相談いただく際には、その点について問題がないことを前提としてお申し込みいただく形になります。そのほか、他の企業の代理での相談、コンサルタントや士業の方が、ご自身の専門分野のノウハウ取得を、目的とした相談などは、お受けしていません。">' +
+    return '<section class="slide" data-section="rules" data-title="規約3&4. 責任範囲・お断りする場合" data-notes="アドバイスに関する責任範囲についてです。&#10;アドバイスの完全性は保証できません。実行結果や行動にともなう万が一のトラブルや損害についても、よろず支援拠点、およびコーディネイターは責任を負いかねます。&#10;最終判断は必ずご自身でお願いいたします。また、威圧的な言動や暴力的行為、業務を妨げる行為、勧誘および営業行為などがあった場合には、その場で相談を中止し、以後のご利用をお断りすることがあります。&#10;また反社会的勢力に関わる方はご利用いただけません。ご相談いただく際には、その点について問題がないことを前提としてお申し込みいただく形になります。&#10;そのほか、他の企業の代理での相談、コンサルタントや士業の方が、ご自身の専門分野のノウハウ取得を、目的とした相談などは、お受けしていません。">' +
       H('規約 3&4 ― 責任範囲・お断りする場合') +
       '<div class="slide-content">' +
         '<ul class="s-num-list">' +
@@ -278,7 +278,7 @@
 
   /* ── 16: 規約5 トレーニー（内容少→大きく） ── */
   function slide16() {
-    return '<section class="slide slide-quote" data-section="rules" data-title="規約5. トレーニーの同席" data-notes="はい、最後です。よろず支援拠点では、金融機関や支援機関の方の研修制度があり、事前のご案内なく研修のためにトレーニーが同席する場合があります。同席者がいる場合は冒頭でご紹介させていただきます。ご了承ください。">' +
+    return '<section class="slide slide-quote" data-section="rules" data-title="規約5. トレーニーの同席" data-notes="はい、最後です。&#10;よろず支援拠点では、金融機関や支援機関の方の研修制度があり、事前のご案内なく研修のためにトレーニーが同席する場合があります。&#10;同席者がいる場合は冒頭でご紹介させていただきます。ご了承ください。">' +
       '<div class="slide-content slide-content-center">' +
         '<blockquote class="s-quote" style="font-size:2.8cqw;line-height:1.8;">' +
           '<span class="s-quote-mark" style="font-size:5cqw;padding-left:0;text-align:center;">"</span>' +
@@ -291,7 +291,7 @@
 
   /* ── 17: エンディング ── */
   function slide17() {
-    return '<section class="slide slide-ending" data-section="ending" data-title="では、はじめましょう" data-notes="以上がご案内の内容になります。ご質問はありますか？　大丈夫そうですか。では、今日のご相談に進んでまいります。まずは、御社の事業内容ですとか、主力商品、主なお客様（ターゲットなど）、販売やサービス提供方法、現在の課題などをうかがってまいります。">' +
+    return '<section class="slide slide-ending" data-section="ending" data-title="では、はじめましょう" data-notes="以上がご案内の内容になります。&#10;ご質問はありますか？　大丈夫そうですか。&#10;では、今日のご相談に進んでまいります。&#10;まずは、御社の事業内容ですとか、主力商品、主なお客様（ターゲットなど）、販売やサービス提供方法、&#10;現在の課題などをうかがってまいります。">' +
       '<div class="slide-content slide-content-center">' +
         '<div class="s-ending-bar"></div>' +
         '<p class="s-ending-main">ご案内は以上です。<br>では、はじめましょう。</p>' +
@@ -303,7 +303,7 @@
 
   /* ── 18: ヒアリング ── */
   function slide18() {
-    return '<section class="slide slide-metric" data-section="hr" data-title="事業内容" data-notes="順にうかがってまいります。まずは事業内容について、お聞かせください。">' +
+    return '<section class="slide slide-metric" data-section="hr" data-title="事業内容" data-notes="順にうかがってまいります。&#10;まずは事業内容について、お聞かせください。&#10;&#10;御社の正式名称、設立年月日、事業内容、従業員数など教えてください。&#10;※ご相談者様が代表者で無い場合は、部署名とお名前をお聞かせください。">' +
       '<div class="slide-content slide-content-center">' +
         '<p class="s-metric-lead">教えてください</p>' +
         '<p class="s-metric-unit">＜事業内容について＞</p>' +
@@ -315,7 +315,7 @@
 
   /* ── 19: ヒアリング ── */
   function slide19() {
-    return '<section class="slide slide-metric" data-section="hr" data-title="主力商品" data-notes="つづきまして、御社の主力商品と販路について、お聞かせください。">' +
+    return '<section class="slide slide-metric" data-section="hr" data-title="主力商品" data-notes="つづきまして、御社の主力商品と販路について、お聞かせください。&#10;&#10;・主力商品&#10;・主なお客様&#10;・販売、サービス提供エリア&#10;・年商">' +
       '<div class="slide-content slide-content-center">' +
         '<p class="s-metric-lead">教えてください</p>' +
         '<p class="s-metric-unit">＜主力商品と販路について＞</p>' +
@@ -327,7 +327,7 @@
 
   /* ── 20: ヒアリング ── */
   function slide20() {
-    return '<section class="slide slide-metric" data-section="hr" data-title="主力商品" data-notes="最後です。現在の課題について、お聞かせください。">' +
+    return '<section class="slide slide-metric" data-section="hr" data-title="主力商品" data-notes="最後です。今日の本題ですね。&#10;現在の課題について、お聞かせください。">' +
       '<div class="slide-content slide-content-center">' +
         '<p class="s-metric-lead">教えてください</p>' +
         '<p class="s-metric-unit">＜現在の課題について＞</p>' +
