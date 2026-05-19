@@ -9,20 +9,14 @@
 
   /* ── 01: タイトル ── */
   function slide01() {
-    return '<section class="slide slide-cover" data-section="cover" data-title="タイトル" data-notes="本日はよろず支援拠点にお越しいただきありがとうございます。はじめてのご利用ということで、新規申込時に確認はされていると思いますが、まず最初に、よろず支援拠点のご案内と、ご利用ルールについて、5分ほどでご案内させてください。">' +
+    return '<section class="slide slide-cover" data-section="cover" data-title="タイトル" data-notes="本日はよろず支援拠点ご利用いただきありがとうございます。はじめてのご利用ということで、新規申込時に確認はされていると思いますが、まず最初に、よろず支援拠点のご案内と、ご利用ルールについて、5分ほどでご案内させてください。">' +
       '<div class="slide-cover-bar">' +
         '<div class="slide-cover-tag">よろず支援拠点 岡山</div>' +
         '<h1 class="slide-cover-title">はじめてご利用の方へ</h1>' +
       '</div>' +
-      '<div class="slide-cover-body" style="flex-direction:row;align-items:flex-end;padding-bottom:2.5cqw;">' +
-        '<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:1.2cqw;">' +
-          '<p class="slide-cover-sub">ご利用案内 ＋ よくある質問 ＋ ご利用規約</p>' +
-          '<div class="slide-cover-meta">相談開始前 ご案内</div>' +
-        '</div>' +
-        '<div style="display:flex;gap:1cqw;flex-shrink:0;align-items:flex-end;">' +
-          '<img src="img/img_01.png" alt="Q&A" style="width:19cqw;border-radius:.5cqw;box-shadow:0 3px 14px rgba(0,0,0,.18);">' +
-          '<img src="img/img_02.png" alt="利用規約" style="width:19cqw;border-radius:.5cqw;box-shadow:0 3px 14px rgba(0,0,0,.18);">' +
-        '</div>' +
+      '<div class="slide-cover-body">' +
+        '<p class="slide-cover-sub">ご利用案内 ＋ よくある質問 ＋ ご利用規約</p>' +
+        '<div class="slide-cover-meta">相談開始前 ご案内</div>' +
       '</div>' +
     '</section>';
   }
